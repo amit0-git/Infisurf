@@ -10,3 +10,7 @@
   <li>Enter Username and Password of Wifi</li>
   <li>Press Login and Enjoy :-) </li>
 </ol>
+
+## Screenshots
+
+![Screenshot 2024-01-27 223001](https://github.com/amit0-git/Infisurf/assets/54703731/fec2634c-686a-47ab-bdd3-6078ea4974f2)
