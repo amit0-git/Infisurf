@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>res/wi-fi.png</file>
+    <file>res/linkedin.png</file>
+    <file>res/download.png</file>
+    <file>res/codioful-formerly-gradienta-bKESVqfxass-unsplash.jpg</file>
+    <file>res/codioful-formerly-gradienta-OzfD79w8ptA-unsplash.jpg</file>
+    <file>res/richard-horvath-cPccYbPrF-A-unsplash.jpg</file>
+    <file>res/github.png</file>
+    <file>res/Blue Modern Business Linktree Profile Image.png</file>
+    <file>res/name.png</file>
+    <file>res/about.png</file>
+    <file>res/helping-hand.png</file>
+    <file>res/srms.png</file>
+    <file>res/transfer.png</file>
+    <file>res/wifi.png</file>
+  </qresource>
+</RCC>
