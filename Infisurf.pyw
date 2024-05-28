@@ -1,5 +1,5 @@
-#Author:Amit Verma
-#Date: 27-01-2024
+# Author:Amit Verma
+# Date: 27-05-2024
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import QUrl
@@ -11,11 +11,13 @@ import time
 timeout = 5
 
 
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        # MainWindow.resize(796, 584)
-        MainWindow.setFixedSize(796, 584)
+        MainWindow.resize(796, 584)
         sizePolicy = QtWidgets.QSizePolicy(
             QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed
         )
@@ -23,6 +25,9 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(MainWindow.sizePolicy().hasHeightForWidth())
         MainWindow.setSizePolicy(sizePolicy)
+        font = QtGui.QFont()
+        font.setPointSize(4)
+        MainWindow.setFont(font)
         icon = QtGui.QIcon()
         icon.addPixmap(
             QtGui.QPixmap("res/wi-fi.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off
@@ -173,13 +178,13 @@ class Ui_MainWindow(object):
         self.label_3.setGeometry(QtCore.QRect(20, 20, 591, 151))
         font = QtGui.QFont()
         font.setFamily("MV Boli")
-        font.setPointSize(12)
+        font.setPointSize(11)
         font.setBold(False)
         font.setItalic(False)
         font.setWeight(50)
         self.label_3.setFont(font)
         self.label_3.setStyleSheet(
-            "QLabel{\n" "\n" '    font: 12pt "MV Boli";\n' "background:none;\n" "}"
+            "QLabel{\n" "\n" '    font: 11pt "MV Boli";\n' "background:none;\n" "}"
         )
         self.label_3.setWordWrap(True)
         self.label_3.setObjectName("label_3")
@@ -187,7 +192,7 @@ class Ui_MainWindow(object):
         self.label_5.setGeometry(QtCore.QRect(20, 190, 161, 31))
         self.label_5.setStyleSheet(
             "QLabel{\n"
-            'font: 15pt "MV Boli";\n'
+            'font: 14pt "MV Boli";\n'
             "text-decoration: underline;\n"
             "}\n"
             ""
@@ -196,7 +201,7 @@ class Ui_MainWindow(object):
         self.label_6 = QtWidgets.QLabel(self.page_2)
         self.label_6.setGeometry(QtCore.QRect(20, 230, 411, 131))
         self.label_6.setStyleSheet(
-            "QLabel{\n" 'font: 12pt "MV Boli";\n' "background:none;\n" "\n" "}"
+            "QLabel{\n" 'font: 11pt "MV Boli";\n' "background:none;\n" "\n" "}"
         )
         self.label_6.setObjectName("label_6")
         self.label_7 = QtWidgets.QLabel(self.page_2)
@@ -220,9 +225,9 @@ class Ui_MainWindow(object):
         )
         self.page_3.setObjectName("page_3")
         self.label_4 = QtWidgets.QLabel(self.page_3)
-        self.label_4.setGeometry(QtCore.QRect(20, 170, 521, 51))
+        self.label_4.setGeometry(QtCore.QRect(20, 320, 521, 51))
         self.label_4.setStyleSheet(
-            "QLabel{\n" '    font: 13pt "MV Boli";\n' "background:none;\n" "}"
+            "QLabel{\n" '    font: 11pt "MV Boli";\n' "background:none;\n" "}"
         )
         self.label_4.setAlignment(
             QtCore.Qt.AlignLeading | QtCore.Qt.AlignLeft | QtCore.Qt.AlignVCenter
@@ -230,27 +235,25 @@ class Ui_MainWindow(object):
         self.label_4.setWordWrap(True)
         self.label_4.setObjectName("label_4")
         self.label_8 = QtWidgets.QLabel(self.page_3)
-        self.label_8.setGeometry(QtCore.QRect(240, 30, 141, 141))
+        self.label_8.setGeometry(QtCore.QRect(240, 20, 151, 151))
         self.label_8.setStyleSheet("QLabel{\n" "background:none;\n" "}")
         self.label_8.setText("")
-        self.label_8.setPixmap(
-            QtGui.QPixmap("res/Blue Modern Business Linktree Profile Image.png")
-        )
+        self.label_8.setPixmap(QtGui.QPixmap("res/Untitled design (2).png"))
         self.label_8.setScaledContents(True)
         self.label_8.setAlignment(QtCore.Qt.AlignCenter)
         self.label_8.setWordWrap(False)
         self.label_8.setObjectName("label_8")
         self.label_9 = QtWidgets.QLabel(self.page_3)
-        self.label_9.setGeometry(QtCore.QRect(20, 230, 581, 71))
+        self.label_9.setGeometry(QtCore.QRect(20, 190, 581, 71))
         font = QtGui.QFont()
         font.setFamily("MV Boli")
-        font.setPointSize(12)
+        font.setPointSize(11)
         font.setBold(False)
         font.setItalic(False)
         font.setWeight(50)
         self.label_9.setFont(font)
         self.label_9.setStyleSheet(
-            "QLabel{\n" 'font: 12pt "MV Boli";\n' "background:none;\n" "\n" "}"
+            "QLabel{\n" 'font: 11pt "MV Boli";\n' "background:none;\n" "\n" "}"
         )
         self.label_9.setAlignment(
             QtCore.Qt.AlignLeading | QtCore.Qt.AlignLeft | QtCore.Qt.AlignTop
@@ -258,16 +261,16 @@ class Ui_MainWindow(object):
         self.label_9.setWordWrap(True)
         self.label_9.setObjectName("label_9")
         self.label_10 = QtWidgets.QLabel(self.page_3)
-        self.label_10.setGeometry(QtCore.QRect(20, 320, 581, 71))
+        self.label_10.setGeometry(QtCore.QRect(20, 270, 581, 71))
         font = QtGui.QFont()
         font.setFamily("MV Boli")
-        font.setPointSize(12)
+        font.setPointSize(11)
         font.setBold(False)
         font.setItalic(False)
         font.setWeight(50)
         self.label_10.setFont(font)
         self.label_10.setStyleSheet(
-            "QLabel{\n" 'font: 12pt "MV Boli";\n' "background:none;\n" "\n" "}"
+            "QLabel{\n" 'font: 11pt "MV Boli";\n' "background:none;\n" "\n" "}"
         )
         self.label_10.setAlignment(
             QtCore.Qt.AlignLeading | QtCore.Qt.AlignLeft | QtCore.Qt.AlignTop
@@ -461,7 +464,7 @@ class Ui_MainWindow(object):
         self.headFrame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.headFrame.setObjectName("headFrame")
         self.mainHead = QtWidgets.QLabel(self.headFrame)
-        self.mainHead.setGeometry(QtCore.QRect(80, 20, 511, 71))
+        self.mainHead.setGeometry(QtCore.QRect(60, 20, 511, 71))
         self.mainHead.setMinimumSize(QtCore.QSize(3, 0))
         self.mainHead.setBaseSize(QtCore.QSize(9, 0))
         self.mainHead.setStyleSheet(
@@ -488,6 +491,13 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         self.stackedWidget.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+        #########################################################################
+        #########################################################################
+        #########################################################################
+        #########################################################################
+
+        # user defined functions
 
         # set default cvalue in the username and password field
         self.username.setText("Harshitg")
@@ -587,7 +597,7 @@ class Ui_MainWindow(object):
             # disable the login button
             self.loginButton.setEnabled(False)
             self.loginButton.setText("Loading..")
-        #     start the request part in the new thread to avoid UI unresponsiveness
+            #     start the request part in the new thread to avoid UI unresponsiveness
 
             thread = threading.Thread(target=self.loginLogic, args=(username, password))
             # start the thread
@@ -621,7 +631,7 @@ class Ui_MainWindow(object):
         self.label_3.setText(
             _translate(
                 "MainWindow",
-                "🛜Infisurf is a Hostel Wifi Login tool - it is designed to access hostel wifi without logging in through browser. The Hostel/College Wifi will logout when the system is inactive for some time.\n"
+                "Infisurf is a Hostel Wifi Login tool - it is designed to access hostel wifi without logging in through browser. The Hostel/College Wifi will logout when the system is inactive for some time.\n"
                 "Infisurf is designed to solve this problem.",
             )
         )
@@ -638,22 +648,22 @@ class Ui_MainWindow(object):
         self.label_7.setText(
             _translate(
                 "MainWindow",
-                "Please visit https://github.com/amit0-git/Infisurf/download to download the app",
+                "Please visit https://infisurf-website.vercel.app to download the app",
             )
         )
         self.label_4.setText(
-            _translate("MainWindow", "Designed and developed by Amit Verma :-) 😎 ")
+            _translate("MainWindow", "Designed and developed by Amit Verma :-) ")
         )
         self.label_9.setText(
             _translate(
                 "MainWindow",
-                "This app is open source, contribute at 🌐 https://github.com/amit0-git/Infisurf",
+                "This app is open source, contribute at https://github.com/amit0-git/Infisurf",
             )
         )
         self.label_10.setText(
             _translate(
                 "MainWindow",
-                "If you have any queries please contact at 📧root.avanti@gmail.com",
+                "If you have any queries please contact at root.avanti@gmail.com",
             )
         )
         self.connectButton.setToolTip(

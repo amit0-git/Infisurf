@@ -16,6 +16,11 @@
     <verstretch>0</verstretch>
    </sizepolicy>
   </property>
+  <property name="font">
+   <font>
+    <pointsize>4</pointsize>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>Infisurf</string>
   </property>
@@ -276,7 +281,7 @@ border-radius:10px;
       <property name="font">
        <font>
         <family>MV Boli</family>
-        <pointsize>12</pointsize>
+        <pointsize>11</pointsize>
         <weight>50</weight>
         <italic>false</italic>
         <bold>false</bold>
@@ -285,7 +290,7 @@ border-radius:10px;
       <property name="styleSheet">
        <string notr="true">QLabel{
 
-	font: 12pt &quot;MV Boli&quot;;
+	font: 11pt &quot;MV Boli&quot;;
 background:none;
 }</string>
       </property>
@@ -308,7 +313,7 @@ Infisurf is designed to solve this problem.</string>
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel{
-font: 15pt &quot;MV Boli&quot;;
+font: 14pt &quot;MV Boli&quot;;
 text-decoration: underline;
 }
 </string>
@@ -328,7 +333,7 @@ text-decoration: underline;
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel{
-font: 12pt &quot;MV Boli&quot;;
+font: 11pt &quot;MV Boli&quot;;
 background:none;
 
 }</string>
@@ -356,7 +361,7 @@ background:none;
 }</string>
       </property>
       <property name="text">
-       <string>Please visit https://www.github.com/infisurf.exe to download the app</string>
+       <string>Please visit https://infisurf-website.vercel.app to download the app</string>
       </property>
       <property name="wordWrap">
        <bool>true</bool>
@@ -378,14 +383,14 @@ color:white;
       <property name="geometry">
        <rect>
         <x>20</x>
-        <y>170</y>
+        <y>320</y>
         <width>521</width>
         <height>51</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel{
-	font: 13pt &quot;MV Boli&quot;;
+	font: 11pt &quot;MV Boli&quot;;
 background:none;
 }</string>
       </property>
@@ -403,9 +408,9 @@ background:none;
       <property name="geometry">
        <rect>
         <x>240</x>
-        <y>30</y>
-        <width>141</width>
-        <height>141</height>
+        <y>20</y>
+        <width>151</width>
+        <height>151</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -417,7 +422,7 @@ background:none;
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="resource.qrc">:/icons/res/Blue Modern Business Linktree Profile Image.png</pixmap>
+       <pixmap resource="resource.qrc">:/icons/res/Untitled design (2).png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -433,7 +438,7 @@ background:none;
       <property name="geometry">
        <rect>
         <x>20</x>
-        <y>230</y>
+        <y>190</y>
         <width>581</width>
         <height>71</height>
        </rect>
@@ -441,7 +446,7 @@ background:none;
       <property name="font">
        <font>
         <family>MV Boli</family>
-        <pointsize>12</pointsize>
+        <pointsize>11</pointsize>
         <weight>50</weight>
         <italic>false</italic>
         <bold>false</bold>
@@ -449,7 +454,7 @@ background:none;
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel{
-font: 12pt &quot;MV Boli&quot;;
+font: 11pt &quot;MV Boli&quot;;
 background:none;
 
 }</string>
@@ -468,7 +473,7 @@ background:none;
       <property name="geometry">
        <rect>
         <x>20</x>
-        <y>320</y>
+        <y>270</y>
         <width>581</width>
         <height>71</height>
        </rect>
@@ -476,7 +481,7 @@ background:none;
       <property name="font">
        <font>
         <family>MV Boli</family>
-        <pointsize>12</pointsize>
+        <pointsize>11</pointsize>
         <weight>50</weight>
         <italic>false</italic>
         <bold>false</bold>
@@ -484,7 +489,7 @@ background:none;
       </property>
       <property name="styleSheet">
        <string notr="true">QLabel{
-font: 12pt &quot;MV Boli&quot;;
+font: 11pt &quot;MV Boli&quot;;
 background:none;
 
 }</string>
@@ -830,7 +835,7 @@ background:white;
     <widget class="QLabel" name="mainHead">
      <property name="geometry">
       <rect>
-       <x>80</x>
+       <x>60</x>
        <y>20</y>
        <width>511</width>
        <height>71</height>

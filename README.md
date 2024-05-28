@@ -1,7 +1,5 @@
 ![name](https://github.com/amit0-git/Infisurf/assets/54703731/9fa0d7ae-8982-4385-8e8e-c79dbc8dce9b)
 
-
-<h2>Tired of logging in again and again to access your hostel/college WiFi? We've got you covered! Say goodbye to those annoying and time-consuming login procedures and enjoy unlimited WiFi access without any hassle.</h2>
 <h2>Infisurf is a Hostel Wifi Login tool - it is designed to access hostel wifi without logging in through browser. The Hostel/College Wifi will logout when the system is inactive for some time.</h2>
 <h2>Infisurf is designed to solve this problem.</h2>
 
