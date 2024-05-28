@@ -27,5 +27,6 @@ To download the Infisurf please visit https://drive.google.com/file/d/1Yvj1h2wGR
 
 ### About Section
 
+![img3](https://github.com/amit0-git/Infisurf/assets/54703731/64600bd0-5dce-4f09-af7f-4a5248309582)
 
-![Screenshot 2024-01-27 223224](https://github.com/amit0-git/Infisurf/assets/54703731/c093d2e4-4efe-4288-953e-b93715c728f6)
+
